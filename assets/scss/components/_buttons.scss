@@ -1,39 +1,38 @@
 /*=============== BUTTONS ===============*/
-.button{
-    display: inline-block;
-    background-color: var(--first-color);
-    color: #1A1A1A; // Use color black for yellow
-    padding: .75rem 1.5rem;
-    border-radius: 3rem; 
-    font-weight: var(--font-semi-bold);
-    transition: .3s;
-    
-    &:hover{
-        background-color: var(--first-color-alt);
-    }
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: rgb(97, 97, 97);
+  padding: 0.75rem 1.5rem;
+  border-radius: 3rem;
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
 
-    &__header{
-        display: none;
-    }
+  &:hover {
+    background-color: var(--first-color-alt);
+  }
 
-    &-link{
-        background: none;
-        padding: 0;
-        color: var(--title-color);
+  &__header {
+    display: none;
+  }
 
-        &:hover{
-            background-color: transparent;
-        }
+  &_link {
+    background: none;
+    padding: 0;
+    color: var(--title-color);
+    &:hover {
+      background-color: transparent;
     }
+  }
 
-    &-flex{
-        display: inline-flex;
-        align-items: center;
-        column-gap: .25rem;
-        padding: .75rem 1rem;
-    }
+  &_flex {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    padding: 0.75rem 1rem;
+  }
 
-    &__icon{
-        font-size: 1.5rem;
-    }
+  &__icon {
+    font-size: 1.5rem;
+  }
 }
